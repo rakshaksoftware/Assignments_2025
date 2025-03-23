@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+import numpy as np
+fig, axs = plt.subplots(2,2,  tight_layout=True)
+x = np.linspace(-10,10,200)
+y = x**2
+axs[0,0].plot(x,y)
+axs[0,0].set_title("y = x^2")
+axs[0,0].set_xlabel("x axis")
+axs[0,0].set_ylabel("y axis")
+rg = np.random.default_rng()
+x= rg.normal(0.5,0.1,size=100)
+y = np.linspace(0,1,100)
+axs[0,1].scatter(x,y)
+axs[0,1].set_title("normal distribution with mean =0.5 and stddev =0.1")
+axs[0,1].set_xlabel("x axis")
+axs[0,1].set_ylabel("y axis")
+x= np.random.exponential(1,size=500)
+axs[1,0].set_title("Histogram of 500 random numbers drawn from an exponential distribution with a rate parameter (λ) of 1.")
+axs[1,0].set_xlabel("x axis")
+axs[1,0].set_ylabel("y axis")
+axs[1,0].hist(x,bins=10)
+plt.show()
