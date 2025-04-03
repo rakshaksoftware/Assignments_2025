@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+
+\title{Computer Vision Project: Bullseye Detection Using Computer Vision and Deep Learning}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Problem Statement}
+
+Accurately detecting bullseye patterns in real-time is crucial for applications such as autonomous navigation, target tracking, and precision analysis. However, existing object detection models lack specialized training for bullseye recognition, leading to suboptimal performance in varying environmental conditions.
+
+\noindent This project aims to develop a robust bullseye detection system using computer vision and deep learning. Your tasks are:
+
+\begin{enumerate}
+    \item \textbf{Building a Custom Dataset} – Capturing and collecting bullseye images (Specifically Red and White bullseye) from various sources, ensuring diversity in lighting, angles, and backgrounds. The dataset will be annotated using tools like LabelImg or CVAT to create high-quality labeled data for training.
+    \begin{center}
+        \includegraphics[scale=1]{"C:/Users/Dell/Desktop/bullseye.jpg"}
+    \end{center}
+
+    \item \textbf{Fine-Tuning Deep Learning Models} – Training object detection models such as YOLOv8 and MobileNetSSD on the custom dataset, optimizing hyperparameters, and enhancing model generalization through data augmentation techniques.
+
+    \item \textbf{Model Evaluation and Optimization} – Assessing model performance using metrics like mean Average Precision (mAP) and Intersection over Union (IoU), followed by conversion to optimized formats (ONNX, TensorRT) for real-time inference.
+
+    \item \textbf{Documentation and Reporting} – Systematically documenting the dataset creation process, model training workflow, experimental results, and key insights in a detailed report.
+
+    \item \textbf{Presentation and Demonstration} – Showcasing the project’s methodology, challenges, and findings through a structured presentation, accompanied by a live demonstration of real-time bullseye detection in varied conditions.
+\end{enumerate}
+
+For any additional information or clarifications, please feel free to reach out.\\
+
+\textbf{Note:} The project is quite challenging and requires a good understanding of computer vision, dataset preparation and deep learning concepts. It is recommended that you start early and allocate sufficient time for each task.
+
+\section*{Deadlines for Submission}
+\begin{itemize}
+    \item 7th April 2025: Fine tuned model and dataset prepared
+    \item 10th April 2025: Documentation and Report
+    \item Will be announced: Presentation Preparation and Demonstration
+\end{itemize}
+
+Submit each task on or before the deadline as a pull request to the GitHub repository. Ensure that your code is well-commented and follows best practices for readability and maintainability.
+\end{document}
