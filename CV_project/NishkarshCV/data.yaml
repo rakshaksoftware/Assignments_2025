@@ -1,0 +1,21 @@
+path: C:/BULLSEYE3
+
+train: 
+  Images: images/train
+  Labels: labels/train
+val: 
+  Images: images/valid
+  Labels: labels/valid
+test:
+  Images: images/test
+  Labels: labels/test
+
+nc: 1
+names: ['bullseye']
+
+# roboflow:
+#   workspace: nishkarsh
+#   project: my-first-project-qaxhr
+#   version: 3
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/nishkarsh/my-first-project-qaxhr/dataset/3
