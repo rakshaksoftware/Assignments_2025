@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['target_red']
+
+roboflow:
+  workspace: anant-telcd
+  project: target-yz6ia-7bhwu
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/anant-telcd/target-yz6ia-7bhwu/dataset/3
