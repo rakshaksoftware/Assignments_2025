@@ -1,0 +1,6 @@
+path: C:\Users\khand\OneDrive\Desktop\Rakshak\New folder\Output
+train: images/train
+val: images/validation
+
+names:
+    0: bullseye
