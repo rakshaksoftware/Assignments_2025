@@ -1,0 +1,13 @@
+train: ./train
+val: ./valid
+test: ./test
+
+nc: 1
+names: ['target_red']
+
+roboflow:
+  workspace: target-ocrhv
+  project: target-yz6ia
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/target-ocrhv/target-yz6ia/dataset/3
