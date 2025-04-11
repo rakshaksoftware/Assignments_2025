@@ -1,0 +1,6 @@
+path: C:\Users\Piyush Prajapati\coding\Rakshak\Conda\Assignments_2025\Assignments_2025\ML_Assignments\Piyush\Bullseye_detection
+train: images/train
+val: images/test
+
+names:
+  0: Red and White Bullseye
