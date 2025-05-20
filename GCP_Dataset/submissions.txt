@@ -6,3 +6,4 @@ Add the (read and edit access) links in this format:
 - Nishkarsh : https://drive.google.com/drive/folders/1EQJBx1iWdGQAwZFWdp7_CtaNn9NUbY_3?usp=drive_link
 - Anant Asati: https://drive.google.com/drive/folders/1KCUXEHR4kIomG5yR7jKgz9MKO4buslHo?usp=share_link
 - Shreyaan Sharma: https://drive.google.com/drive/folders/15kjUAkgiq6XXqKB8iUMJQOgqyeLNGVGO?usp=sharing
+- Mahaswi Ganipisetty: https://drive.google.com/drive/folders/1Gi6AGAH_-IHGnZK1wwVKbwaN8YGDqNQ3?usp=drive_link 
